@@ -1,26 +1,38 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { Button3 } from './Button3';
 import './HeroSection.css';
+import { Button2 } from './Button2';
 
-function HeroSection() {
+function HeroSection(props) {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        
-        
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
+      {props.status &&
+          <Button3
+            className='btns'
+            buttonStyle='mybtn--primary'
+            buttonSize='mybtn--large'
           //onClick={console.log('hey')}
         >
          PLAN YOUR TRIP NOW <i className='far fa-play-circle' />
-        </Button>*/
-      </div>
+        </Button3>
+      }
+      {
+        props.status ||
+         <Button2
+            className='btns'
+            buttonStyle='mybtn--primary'
+            buttonSize='mybtn--large'
+        >
+         PLAN YOUR TRIP NOW  <i class="fa-solid fa-signs-post"></i>
+        </Button2>
+      }
+    </div>
     </div>
   );
 }

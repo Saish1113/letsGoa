@@ -1,0 +1,33 @@
+#reg .btn-primary {
+    color: #fff;
+    background-color: #b103fc;
+    border-color: #813AFE !important;
+}
+
+#reg .icon-img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2rem;
+    display:inline-block ;
+}
+
+#reg .reset{
+    color: black;
+    background-color: #813AFE !important;
+    border-color:red;
+}
+
+#reg .form-control:focus{
+    z-index: 5;
+}
+
+
+#reg .forgot-password{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#reg  a{
+     color: blue;
+ }
+

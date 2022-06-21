@@ -1,0 +1,24 @@
+ .btn-primary {
+    color: #fff;
+    background-color: #b103fc;
+    border-color: #813AFE !important;
+    
+}
+
+.icon-img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.reset{
+    color: black;
+    background-color: #813AFE !important;
+    border-color:red;
+}
+
+.form-control:focus{
+    z-index: 5;
+}
+

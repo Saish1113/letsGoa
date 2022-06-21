@@ -1,6 +1,4 @@
-html, body{
-    font-family: 'Open Sans', sans-serif;
-}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Raleway', sans-serif;
 }
@@ -11,16 +9,7 @@ a{
 ul{
     list-style-type: none;
 }
-button, input[type = "submit"]{
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-}
-.container{
-    max-width: 1320px;
-    padding: 0 1rem;
-    margin: 0 auto;
-}
+
 .flex{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -38,6 +27,7 @@ button, input[type = "submit"]{
     line-height: 1.6;
     letter-spacing: 1px;
 }
+/*
 .form-control{
     width: 100%;
     margin: 0.6rem 0;
@@ -53,21 +43,7 @@ button, input[type = "submit"]{
             box-sizing: border-box;
 }
 
-.btn{
-    padding: 0.7rem 2.4rem;
-    border-radius: 0.2rem;
-    font-weight: 600;
-    background-color: var(--green);
-    color: #fff;
-    border: 1px solid var(--green);
-    
-}
-.btn:hover{
-    opacity: 0.9;
-    -webkit-transition: var(--trans);
-    -o-transition: var(--trans);
-    transition: var(--trans);
-}
+*/
 
 /* css stop transition and animation */
 .resize-animation-stopper *{
